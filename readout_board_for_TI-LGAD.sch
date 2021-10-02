@@ -372,4 +372,28 @@ Wire Wire Line
 	6700 2300 5850 2300
 Wire Wire Line
 	5850 2300 5850 3900
+$Comp
+L Device:RF_Shield_One_Piece J7
+U 1 1 6158C318
+P 3800 2850
+F 0 "J7" H 4430 2839 50  0000 L CNN
+F 1 "RF_Shield_One_Piece" H 4430 2748 50  0000 L CNN
+F 2 "my_footprints:MS290-10_RF_Shield" H 3800 2750 50  0001 C CNN
+F 3 "~" H 3800 2750 50  0001 C CNN
+F 4 "MS290-10F" H 3800 2850 50  0001 C CNN "Manufacturer number"
+F 5 "https://www.digikey.ch/product-detail/en/masach-tech-ltd/MS290-10F/2333-MS290-10F-ND/12084659?cur=CHF&lang=en" H 3800 2850 50  0001 C CNN "Vendor"
+	1    3800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6158FFC6
+P 3800 3250
+F 0 "#PWR0102" H 3800 3000 50  0001 C CNN
+F 1 "GND" H 3805 3077 50  0000 C CNN
+F 2 "" H 3800 3250 50  0001 C CNN
+F 3 "" H 3800 3250 50  0001 C CNN
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
