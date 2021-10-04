@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Four channels readout board for TCT setup"
+Date "2021-10-04"
+Rev "211004"
+Comp "Universität Zürich"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Matías Senger"
 $EndDescr
 $Comp
 L Connector_Generic:Conn_01x02 J2
@@ -373,15 +373,15 @@ Wire Wire Line
 Wire Wire Line
 	5850 2300 5850 3900
 $Comp
-L Device:RF_Shield_One_Piece J7
+L Device:RF_Shield_Two_Pieces J7
 U 1 1 6158C318
 P 3800 2850
 F 0 "J7" H 4430 2839 50  0000 L CNN
-F 1 "RF_Shield_One_Piece" H 4430 2748 50  0000 L CNN
-F 2 "my_footprints:MS290-10_RF_Shield" H 3800 2750 50  0001 C CNN
+F 1 "RF Shield" H 4430 2748 50  0000 L CNN
+F 2 "RF_Shielding:Wuerth_36103205_20x20mm" H 3800 2750 50  0001 C CNN
 F 3 "~" H 3800 2750 50  0001 C CNN
-F 4 "MS290-10F" H 3800 2850 50  0001 C CNN "Manufacturer number"
-F 5 "https://www.digikey.ch/product-detail/en/masach-tech-ltd/MS290-10F/2333-MS290-10F-ND/12084659?cur=CHF&lang=en" H 3800 2850 50  0001 C CNN "Vendor"
+F 4 "Wurth Elektronik 36103205" H 4950 2650 50  0000 C CNN "Manufacturer number"
+F 5 "https://www.digikey.ch/product-detail/de/w%C3%BCrth-elektronik/36103205/732-2486-ND/2337461" H 3800 2850 50  0001 C CNN "Vendor"
 	1    3800 2850
 	1    0    0    -1  
 $EndComp
