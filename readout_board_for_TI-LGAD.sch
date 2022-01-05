@@ -379,7 +379,7 @@ P 3800 2850
 F 0 "J7" H 4430 2839 50  0000 L CNN
 F 1 "RF Shield" H 4430 2748 50  0000 L CNN
 F 2 "RF_Shielding:Wuerth_36103205_20x20mm" H 3800 2750 50  0001 C CNN
-F 3 "~" H 3800 2750 50  0001 C CNN
+F 3 "https://www.we-online.com/katalog/datasheet/36103205.pdf" H 3800 2750 50  0001 C CNN
 F 4 "Wurth Elektronik 36103205" H 4950 2650 50  0000 C CNN "Manufacturer number"
 F 5 "https://www.digikey.ch/product-detail/de/w%C3%BCrth-elektronik/36103205/732-2486-ND/2337461" H 3800 2850 50  0001 C CNN "Vendor"
 	1    3800 2850
